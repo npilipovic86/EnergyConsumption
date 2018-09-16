@@ -16,7 +16,7 @@
 #Api 
 get - api/meters?month=jan&meterId=1
 
-get- api/files
+get- api/files  //Start reading from file
 
 post - api/fractions   body: {"profile":"a","month":"jan","id":null,"fraction":0.5}
 
@@ -29,5 +29,7 @@ post - api/meters    body: { "meterId":1, "profile":"a",	"month":"jan","meterRea
 -REST interface for constants changing, and saving in database
 
 -Improved log file description
+
+-REST interface to upload file
 
 
